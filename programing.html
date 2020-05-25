@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>OUTBOX-EDU</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="Coding Bootcamp" />
+        <meta name="keywords" content="Software Engineering" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!-- Compiled and minified CSS -->
+        <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+        <link rel="stylesheet" type="text/css" href="css/auth.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <style>
+        .flex-container {
+  display: flex;
+}
+            nav,header,
+            main,
+            footer {
+                padding-left: 300px;
+            }
+
+            @media only screen and (max-width: 992px) {
+                header,
+                main,
+                footer {
+                    padding-left: 0;
+                }
+            }
+
+            h1 {
+                font-family: "Changa One", cursive;
+            }
+            .btn {
+                background-color: var(--Blue);
+            }
+            .logos {
+                width: 55px;
+                height: 50px;
+            }
+            .partners {
+                display: inline;
+            }
+        </style>
+    </head>
+
+    <body>
+   
+
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="images/EU.png" />
+                    </div>
+                    
+                </div>
+            </li>
+              <li>
+                <a href="welcome.html"><i class="fas fa-home"></i>Welcome</a>
+            </li>
+            <li class="active">
+                <a href="programing.html"><i class="material-icons">code</i>Introduction To Programming</a>
+            </li>
+           
+            <li>
+                <a href="javascript.html"><i class="fab fa-js"></i>Introduction To Javascript</a>
+            </li>
+
+             <li>
+                <a href="web.html"><i class="material-icons">web</i>Web Development</a>
+            </li>
+              <li><div class="divider"></div></li>
+            <li><a class="white-text" href="index.html"><img class="logos" src="images/EU.png" /></a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="black-text sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+
+        <!--Side nav End-->
+        <main>
+            <div id="create" class="home-width">
+                <div class="form-section__header">
+                    <h3 class="header center">
+                        <span class="white-text">Introduction To Programming </span>
+                    </h3>
+                </div>
+                 
+
+    <div class="container">
+    <p class="flow-text">In this course, you will learn basics of computer programming and computer science. The concepts you learn apply to any and all programming languages and will be a good base onto which you can build your skills. </p>
+       <p class="flow-text">This course is meant for those who are interested in computer science and programming but have no idea where to start and have little to no background information on coding.</p>
+        <div class="video-container">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/zOjov-2OZ0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h4 class="center">Course Contents</h4>
+        <div class="flex-container">
+    <ul class="flow-text">
+        <li>Introduction</li>
+        <li>What is Programming?</li>
+    <li>How do we write Code?</li>
+    <li>How do we get Information from Computers?</li>
+    <li>What can Computers Do?</li>
+    <li>What are Variables?</li>
+    <li>How do we Manipulate Variables?</li>
+    <li>What are Conditional Statements?</li>
+    <li>What are Array’s?</li>
+    <li>What are Loops?</li>
+       <li>What are Errors?</li>
+    <li>How do we Debug Code?</li>
+        </ul>
+    <ul class="flow-text">
+        <li>What are Functions?</li>
+        <li>How can we Import Functions?</li>
+    <li>How do we make our own Functions?</li>
+    <li>What are ArrayLists and Dictionaries?</li>
+    <li>How can we use Data Structures?</li>
+    <li>What is Recursion?</li>
+    <li>What is Pseudocode?</li>
+    <li>Choosing the Right Language?</li>
+    <li>Applications of Programming</li>
+        </ul>
+</div>
+    
+    </div>
+    
+
+</div>
+            
+        </main>
+
+        <!-- Footer -->
+        <footer class="page-footer">
+            <div class="right footer-copyright">
+                <div class="col l6 s12">
+                    <ul>
+                        <li class="partners">
+                            <a class="white-text" href="index.html"><img class="logos" src="images/EU.png" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+            $(document).ready(function () {
+                $(".sidenav").sidenav();
+            });
+        </script>
+      
+    </body>
+</html>
