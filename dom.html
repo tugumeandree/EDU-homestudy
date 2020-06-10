@@ -20,6 +20,10 @@
         <link rel="stylesheet" type="text/css" href="css/auth.css" />
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
         <style>
+        
+        .flex-container {
+  display: flex;
+}
             nav,header,
             main,
             footer {
@@ -66,15 +70,16 @@
            <li>
                 <a href="welcome.html"><i class="fas fa-home"></i>Welcome</a>
             </li>
-            <li >
+            <li>
                 <a href="programing.html"><i class="material-icons">code</i>What Is Programming</a>
             </li>
+           
+            <li>
+                <a href="web.html"><i class="material-icons">web</i>Explore Web Development</a>
+            </li>
+            
 
              <li>
-                <a href="web.html"><i class="material-icons">web</i>Web Dev Environment</a>
-            </li>
-
-             <li  class="active">
                 <a href="dev.html"><i class="fab fa-js"></i>Web Dev Environment</a>
             </li>
 
@@ -85,54 +90,65 @@
             <li>
                 <a href="css.html"><i class="fab fa-js"></i>CSS 3</a>
             </li>
-           
             <li>
                 <a href="javascript.html"><i class="fab fa-js"></i>Javascript</a>
             </li>
-
-            <li>
+            
+            <li class="active">
                 <a href="dom.html"><i class="fab fa-js"></i>Javascript DOM</a>
             </li>
-            <li>
+
+             <li>
                 <a href="version.html"><i class="fab fa-github"></i>Git And Github</a>
             </li>
+
               <li><div class="divider"></div></li>
             <li><a class="white-text" href="index.html"><img class="logos" src="images/EU.png" /></a></li>
         </ul>
         <a href="#" data-target="slide-out" class="black-text sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
 
         <!--Side nav End-->
- <main>
+     <main>
             <div id="create" class="home-width">
                 <div class="form-section__header">
                     <h3 class="header center">
-                        <span class="white-text">Development Environment</span>
+                        <span class="white-text">JavaScript DOM</span>
                     </h3>
                 </div>
                  
 
     <div class="container">
-   <h4>Visual Studio Code Web Dev Setup In 6 Minutes</h4>
-    <p class="flow-text">we'll install Visual Studio Code (VS Code) and configure it for web development in 6 minutes. (HTML, CSS, Javascript) We will look at some features and install some extensions. This video is intended for beginners.</p>
+  <p class="flow-text">In this part we will talk about what the JavaScript DOM (Document Object Model) is and we will look at the different selectors like 
+</p>
         <div class="video-container">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/4NfFFsQC77M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       </div>
-
-       <div class="container">
-   <h4>Live Server Extension in Visual Studio Code</h4>
-    <p class="flow-text">The Live Server extension launches a "development local Server with live reload feature for static & dynamic pages"</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0ik6X4DJKCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+         <p class="flow-text">In this video we will learn how to traverse and move around the DOM with properties like parentNode, parentElement, nextElementSibling and so on. We will also learn how to insert elements with createElement() and createTextNode()</p>
         <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WzE0yqwbdgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div> 
-
-      <div class="container">
-   <h4>Advanced Web Development Setup</h4>
-    <p class="flow-text">This video is not intended for beginners.</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/mPd2aJXCZ2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+         <p class="flow-text">In this lesson in the JavaScript DOM, we will be looking at different events and how to attach them to DOM elements with addEventListener();</p>
+         <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wK2cBMcDTss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+         <p class="flow-text">In this video we will take what we learned in the last 3 videos and create a simple Item lister project where we can add list items with a form, delete them and filter through them all with vanilla JavaScript and DOM properties and methods.</p>
         <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VrV8mo_Ln0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/i37KVt_IcXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+         <h4 class="center">Must Know</h4>
+        <div class="flex-container">
+    <ul class="flow-text">
+        <li>document.getElementById()</li>
+        <li>document.getElementsByClassName()</li>
+    <li>document.getElementsByTagName()</li>
+    <li>document.querySelector()</li>
+    <li>document.querySelectorAll()</li>
+        </ul>
 </div>
-    </div>  
+    
+    </div>
+</div>
+            
         </main>
 
         <!-- Footer -->
