@@ -1,2 +1,2 @@
-# EDU-homestudy
-Outbox EDU learning curriculum web portal
+# CODE-STUDIO-homestudy
+CODE-STUDIO learning curriculum web portal
